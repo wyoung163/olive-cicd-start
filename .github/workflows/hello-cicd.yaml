@@ -1,9 +1,9 @@
 name: first-workflow
-on: [push] # push event 발생 시
+on: [push] 
 
 job: 
   shell-cmd-job:
-    runs-on: ubuntu-latest # 해당 job을 ubuntu latest 버전에서 돌려라
+    runs-on: ubuntu-latest 
     steps: 
       - name: echo Hello
         run: echo "Hello World"
