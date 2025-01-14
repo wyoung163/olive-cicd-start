@@ -24,7 +24,7 @@ group = 'me.dangtong'
 version = '0.0.1-SNAPSHOT'
 
 java {
-    sourceCompatibility = '17'
+    sourceCompatibility = '21'
 }
 
 configurations {
@@ -58,7 +58,6 @@ dependencies {
     runtimeOnly 'com.mysql:mysql-connector-j'
     //모니터링
     implementation 'io.micrometer:micrometer-registry-prometheus'
-
 
 }
 
