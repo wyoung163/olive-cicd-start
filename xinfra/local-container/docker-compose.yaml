@@ -6,11 +6,10 @@ services:
     container_name: mysql
     image: mysql:8.0.0
     ports:
-    - 3306:3306
+      - 3306:3306
     networks:
       - kind_network
     environment:
-      MYSQL_USER: root
       MYSQL_PASSWORD: admin123
       MYSQL_DATABASE: istory
       MYSQL_ROOT_PASSWORD: admin123

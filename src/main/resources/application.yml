@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${DATABASE_URL:jdbc:mysql://localhost:3306/istory}
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:admin123}
+    url: jdbc:mysql://172.20.0.6:3306/istory?user=root&password=admin123&useUnicode=true&characterEncoding=UTF-8 #${DATABASE_URL:jdbc:mysql://172.20.0.6:3306/istory}
+    username: root #${MYSQL_USERNAME:root}
+    password: admin123 #${MYSQL_PASSWORD:admin123}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
